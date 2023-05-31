@@ -23,3 +23,5 @@ document.addEventListener('DOMContentLoaded', function () {
   // attach callback scroll function to scroll event
   document.addEventListener('scroll', scroll);
 });
+
+// End of JS document
