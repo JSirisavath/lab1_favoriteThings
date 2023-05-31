@@ -1,0 +1,90 @@
+html,
+body {
+  height: 115%;
+}
+
+p {
+  color: blueviolet;
+}
+h1 {
+  color: wheat;
+}
+
+#titleHeading {
+  background-color: black;
+  outline: auto blanchedalmond;
+  text-align: center;
+  padding: 1rem;
+  text-shadow: 2px 2px grey;
+}
+
+body {
+  background-color: orange;
+  overflow-y: scroll;
+}
+
+#link-To-MovieTitle {
+  cursor: pointer;
+}
+
+#link-To-Artist {
+  cursor: pointer;
+}
+
+h3 {
+  background-color: plum;
+}
+
+.favoriteMovieSection {
+  border: 5px grey solid;
+  padding: 2rem;
+  margin: 5px;
+}
+
+.favoriteMusicContainer {
+  border: 5px grey solid;
+  padding: 2rem;
+  margin: 5px;
+}
+
+.foodContainer {
+  border: 5px grey solid;
+  padding: 2rem;
+  margin: 5px;
+}
+
+.tableContainer {
+  border: 5px grey solid;
+  padding: 2rem;
+  margin: 5px;
+}
+
+/* Table styles */
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background: grey;
+  width: 200px;
+}
+
+tr:nth-child(even) {
+  background: darksalmon;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.smileyEmojiPicture {
+  align-self: auto;
+  text-align: center;
+  padding-top: 1rem;
+}
