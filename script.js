@@ -1,4 +1,4 @@
-'use strict'; // use strict mode JS
+'use strict'; // use strict mode - JS
 
 // heading/title has "sticky" behavior when scrolling down or up
 // console.log('Hello');
