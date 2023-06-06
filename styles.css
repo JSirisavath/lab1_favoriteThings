@@ -1,15 +1,20 @@
+/* Height of page to be 115% */
 html,
 body {
   height: 115%;
 }
 
+/* Paragraph tags */
 p {
   color: blueviolet;
 }
+
+/* all of h1 tags */
 h1 {
   color: wheat;
 }
 
+/* Title Heading */
 #titleHeading {
   background-color: black;
   outline: auto blanchedalmond;
@@ -18,48 +23,61 @@ h1 {
   text-shadow: 2px 2px grey;
 }
 
+/* For the title/ heading follow affect */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Body HTML */
 body {
   background-color: orange;
   overflow-y: scroll;
 }
-
+/* Link to movie tag mouse pointer - getting by id*/
 #link-To-MovieTitle {
   cursor: pointer;
 }
 
+/* Link to Artist tag mouse pointer - getting by id */
 #link-To-Artist {
   cursor: pointer;
 }
-
+/* All of H3 tags */
 h3 {
   background-color: plum;
 }
 
+/* Favorite movie class */
 .favoriteMovieSection {
   border: 5px grey solid;
   padding: 2rem;
   margin: 5px;
 }
 
+/* Favorite music class */
 .favoriteMusicContainer {
   border: 5px grey solid;
   padding: 2rem;
   margin: 5px;
 }
 
+/* Favorite food container */
 .foodContainer {
   border: 5px grey solid;
   padding: 2rem;
   margin: 5px;
 }
 
+/* Favorite table container */
 .tableContainer {
   border: 5px grey solid;
   padding: 2rem;
   margin: 5px;
 }
 
-/* Table styles */
+/* Table styles - For each components of the table */
 table,
 th,
 tr,
@@ -77,12 +95,7 @@ tr:nth-child(even) {
   background: darksalmon;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
+/* Smiley emoji picture at the end */
 .smileyEmojiPicture {
   align-self: auto;
   text-align: center;
